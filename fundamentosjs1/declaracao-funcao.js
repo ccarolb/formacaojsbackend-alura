@@ -28,7 +28,7 @@ function meuNome(texto) { // 4 - nome entra em texto
 }
 
 function frase(texto) { //2 - nome entra em texto
-    return "Oi pé de " + meuNome(texto) // 3 - nome  entra em meuNome
+    return "Oi, eu sou a " + meuNome(texto) // 3 - nome  entra em meuNome
 }
 
 console.log(frase(nome)) // 1 - nome entra em frase     // 6 - nome é impresso na tela com console.log (junto c
