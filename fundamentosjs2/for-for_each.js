@@ -24,10 +24,15 @@ function mediaNotas() {
 console.log(mediaNotas())
 
 
+//Exercício: Média com forEach
+//Calcule a média de um array de notas utilizando o forEach
+
 function mediaDasNotas() {
     let notas = [6, 7.5, 8, 10, 9]
     let somaNotas = 0;
+
     notas.forEach((nota) => { somaNotas += nota })
+
     return somaNotas / notas.length
 }
 
