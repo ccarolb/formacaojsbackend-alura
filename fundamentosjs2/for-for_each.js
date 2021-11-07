@@ -22,3 +22,13 @@ function mediaNotas() {
 }
 
 console.log(mediaNotas())
+
+
+function mediaDasNotas() {
+    let notas = [6, 7.5, 8, 10, 9]
+    let somaNotas = 0;
+    notas.forEach((nota) => { somaNotas += nota })
+    return somaNotas / notas.length
+}
+
+console.log(mediaDasNotas())
