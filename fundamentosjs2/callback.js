@@ -5,4 +5,11 @@
 
 let listaNome = ["Carol", "Davi", "Leo", "Catarina"]
 
-listaNome.forEach(nome => { console.log(nome) })
+//Arrow function:
+// listaNome.forEach(nome => { console.log(nome) })
+
+//Declaração de função:
+listaNome.forEach(function imprimeNome(nome) {
+    console.log(nome)
+})
+
