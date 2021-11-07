@@ -9,7 +9,15 @@ let listaNome = ["Carol", "Davi", "Leo", "Catarina"]
 // listaNome.forEach(nome => { console.log(nome) })
 
 //Declaração de função:
-listaNome.forEach(function imprimeNome(nome) {
+// listaNome.forEach(function imprimeNome(nome) {
+//     console.log(nome)
+// })
+
+
+//Função já existente:
+function imprimeNome(nome) {
     console.log(nome)
-})
+}
+
+listaNome.forEach(imprimeNome)
 
