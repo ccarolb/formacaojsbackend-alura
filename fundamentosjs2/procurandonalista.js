@@ -10,7 +10,7 @@ let nomeComNota = [nomes, notas]
 function buscaAluno(aluno) {
 
     if (nomeComNota[0].includes(aluno)) {
-        indice = nomeComNota[0].indexOf(aluno)
+        let indice = nomeComNota[0].indexOf(aluno)
         return `${nomeComNota[0][indice]}, sua nota é ${nomeComNota[1][indice]}.`
     } else {
         return "O aluno não foi encontrado."
