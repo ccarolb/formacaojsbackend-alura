@@ -13,3 +13,15 @@ function verificaAprovacao() {
 }
 
 verificaAprovacao()
+
+//Outra forma de fazer:
+
+let nomes = ["Ana", "Marcos", "Maria", "Mauro"]
+let notas = [7, 4.5, 8, 7.5]
+
+function verificaAprovados() {
+    let reprovados = nomes.filter((_, indice) => notas[indice] < 7)
+    return reprovados
+}
+
+console.log(verificaAprovados())
