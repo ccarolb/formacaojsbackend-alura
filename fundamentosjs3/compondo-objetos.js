@@ -8,7 +8,7 @@ const cliente = {
     CPF: "12345678910-11"
 }
 
-cliente.dependentes = [{
+dependentes = [{
     nome: "Nina",
     idade: 2,
     espécie: "felina",
