@@ -21,3 +21,5 @@ const cliente = new Cliente("Fulano", 21, "23123214435", "fulano@email.com", "23
 cliente.depositar(50)
 
 console.log(cliente)
+
+
